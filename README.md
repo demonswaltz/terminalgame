@@ -14,6 +14,19 @@ Games included are:
 9. nSnake
 10. Slashem
 11. TINT
+
 More to come.
 
-To install type: wget https://raw.githubusercontent.com/demonswaltz/terminalgame/master/install.sh chmod +x install.sh sudo ./install.sh
+# To install type: 
+
+wget https://raw.githubusercontent.com/demonswaltz/terminalgame/master/install.sh 
+
+chmod +x install.sh 
+
+sudo ./install.sh
+
+# To run launcher type:
+
+chmod +x launcher.sh
+
+launcher.sh
