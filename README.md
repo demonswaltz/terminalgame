@@ -14,6 +14,9 @@ Games included are:
 9. nSnake
 10. Slashem
 11. TINT
+12. Pacman4Console
+13. Sudoku
+14. Arithmetic
 
 More to come.
 
