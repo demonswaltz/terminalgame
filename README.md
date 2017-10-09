@@ -22,7 +22,7 @@ More to come.
 
 # To install type: 
 
-wget https://raw.githubusercontent.com/demonswaltz/terminalgame/master/install.sh 
+wget https://raw.githubusercontent.com/demonswaltz/terminalgame/master/installer.sh 
 
 chmod +x install.sh 
 
