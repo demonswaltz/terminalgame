@@ -30,6 +30,4 @@ sudo ./install.sh
 
 # To run launcher type:
 
-chmod +x launcher.sh
-
-launcher.sh
+./launcher.sh
