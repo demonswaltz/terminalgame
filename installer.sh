@@ -9,16 +9,24 @@ fi
 # Clear the screen
 reset
 
+echo "Updating OS..."
+
 # Update
 apt-get -y update
+
+echo "Installing dependencies..."
 
 # Install Dependencies
 apt-get install -y jq whiptail
 
+echo "Installing games..."
+
 # Install Games
-apt-get -y install crawl dopewars empire greed mancala moon-buggy nethack-console ninvaders nsnake slashem tint
+apt-get -y install pacman4console sudoku bsdgames crawl dopewars empire greed mancala moon-buggy nethack-console ninvaders nsnake slashem tint
+
+echo "Installing launchers..."
 
 wget https://raw.githubusercontent.com/demonswaltz/terminalgame/master/launcher.sh
 chmod +x launcher.sh
 
-#Done!
+echo "Done!"

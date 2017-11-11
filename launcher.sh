@@ -1,6 +1,9 @@
 #!/bin/bash
 
 whiptail --title "TerminalGAME" --menu --separate-output "Choose:" 20 78 15 \
+"Pacman4Console" "Pacman!!"  \
+"Sudoku" "The classic game of Sudoku"  \
+"Arithmetic" "Gives your brain a workout"  \
 "Crawl" "role-playing text based game"  \
 "Dopewars" "Clean up New York for drugs"  \
 "Empire" "War simulation"  \
@@ -15,9 +18,15 @@ whiptail --title "TerminalGAME" --menu --separate-output "Choose:" 20 78 15 \
 
 CHOICE=$(cat games)
 case $CHOICE in		
+      Pacman4Console) pacman4console
+      ;;
+      Sudoku) sudoku
+      ;;
+      Arithmetic) arithmetic
+      ;;
       Crawl) crawl
       ;;
-	  Dopewars) dopewars
+      Dopewars) dopewars
       ;;
       Empire) empire
       ;;
